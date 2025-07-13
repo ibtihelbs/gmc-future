@@ -85,3 +85,20 @@ console.log(sum);
 const hamza = add(15, 20);
 
 console.log(hamza);
+
+
+const str =
+  "At this checkpoint, you are asked to write an algorithm that reads a sentence, which ends with a point, character by character, and to determine:";
+
+function vowlsCount(y) {
+  let counter = 0;
+  const vowls = "aeuioy";
+  const arr = str.split("");
+  arr.forEach(function (v, i) {
+    if (vowls.includes(v)) {
+      counter = counter + 1;
+    }
+  });
+  return counter;
+}
+console.log(vowlsCount(str));
