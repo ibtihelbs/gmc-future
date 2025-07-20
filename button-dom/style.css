@@ -1,0 +1,17 @@
+button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  border-radius: 999px;
+  background-color: yellowgreen;
+  border: none;
+  cursor: pointer;
+  font-weight: bolder;
+  color: #303078;
+}
+button:hover {
+  opacity: 0.5;
+}
